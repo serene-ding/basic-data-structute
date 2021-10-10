@@ -2,7 +2,7 @@ import java.util.*; ;
 
 class two_sums{
 	public static void two_sums(int[] nums,int target){
-		Map<Integer, Integer> hashtable = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> hashtable = new HashMap<Integer, Integer>();//declare hashtabel
 		int n = nums.length;
 		for (int i = 0; i < n;i++){
 			if (hashtable.containsKey(target-nums[i])){
